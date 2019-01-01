@@ -11,8 +11,8 @@
     "content_scripts": [
         {
             "matches": [ "http://*/*", "https://*/*" ],
-            "js": [ "./script.js" ]
+            "js": [ "./js/script.js" ]
         }
     ],
-    "options_page": "./options.html"
+    "options_page": "./html/options.html"
 }
