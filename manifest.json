@@ -1,26 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "b-rush",
     "version": "0.0.0.0",
-    "default_locale": "ja_JP",
-    "description": "b-rush is a Chrome extension for managing bookmarks.",
-    "icons": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-    },
+    "default_locale": "ja",
+    "name": "__MSG_ext_name__",
+    "description": "__MSG_ext_desc__",
     "browser_action": {
-        "default_icon": {
-            "19": "icon19.png"
-        },
-        "default_title": "Ext title",
-        "default_popup": "popup.html"
+        "default_title": "__MSG_ext_title__",
+        "default_popup": ""
     },
     "content_scripts": [
         {
             "matches": [ "http://*/*", "https://*/*" ],
-            "js": [ "script.js" ]
+            "js": [ "./script.js" ]
         }
     ],
-    "options_page": "options.html"
+    "options_page": "./options.html"
 }
