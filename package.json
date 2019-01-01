@@ -7,7 +7,10 @@
   "author": "Yusuke Miyakawa <chidoriashi00918@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "global": "^4.3.2"
+    "bootstrap": "^4.2.1",
+    "global": "^4.3.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
   },
   "devDependencies": {
     "eslint": "^5.11.1",
