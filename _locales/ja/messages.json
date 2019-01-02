@@ -1,11 +1,11 @@
 {
     "ext_name": {
-        "message": "b-rush"
+        "message": "Tray"
     },
     "ext_desc": {
-        "message": "b-rush is a Chrome extension for managing bookmarks."
+        "message": "Tray is a Chrome extension for managing Pocket bookmarks."
     },
     "ext_title": {
-        "message": "b-rush に移動"
+        "message": "Tray"
     }
 }
