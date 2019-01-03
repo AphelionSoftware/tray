@@ -1,2 +1,2 @@
-# b-rush
-b-rush is a Chrome extension for managing bookmarks.
+# Tray
+🗃️Tray is a Chrome extension for managing Pocket bookmarks.
