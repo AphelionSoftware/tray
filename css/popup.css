@@ -1,0 +1,13 @@
+.popup-size {
+  min-width: 300px;
+  min-height: 100px;
+}
+.content-layout {
+  margin-top: 10px;
+}
+.popup-action-button {
+  text-align: center;
+}
+.popup-action-button button {
+  margin: 0px 10px;
+}
