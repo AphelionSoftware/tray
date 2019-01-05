@@ -9,7 +9,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/popup',
+      path: '/',
       name: 'Popup',
       component: Popup
     }
