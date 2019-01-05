@@ -1,14 +1,14 @@
 <template>
-  <div id="Empty">
-  </div>
+  <popup-temp/>
 </template>
 
 <script>
-// import sample from './../sample/sample.json'
+import PopupTemp from './../templates/PopupTemp'
 
 export default {
   name: location.href.split(/\/(?!.*\/)/)[1].split(/\.(?!.*\.)/)[0],
   components: {
+    PopupTemp
   },
   data () {
     return {

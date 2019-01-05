@@ -1,6 +1,16 @@
 <template>
-  <div id="Empty">
-  </div>
+  <v-content>
+    <v-layout>
+      <v-flex>
+        <v-card
+        flat
+        min-height="300px"
+        width="300px">
+          TEST
+        </v-card>
+      </v-flex>
+    </v-layout>
+  </v-content>
 </template>
 
 <script>
