@@ -1,16 +1,16 @@
 <template>
   <v-app app>
-    <HelloWorld/>
+    <popup/>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/pages/HelloWorld'
+import Popup from './components/views/Popup'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Popup
   },
   data () {
     return {
