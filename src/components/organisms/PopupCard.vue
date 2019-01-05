@@ -1,6 +1,18 @@
 <template>
-  <div id="Empty">
-  </div>
+  <v-card
+  flat
+  min-height="300px"
+  width="300px">
+    <v-contant>
+      <v-container fluid>
+        <v-layout>
+          <v-flex>
+            popup
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-contant>
+  </v-card>
 </template>
 
 <script>

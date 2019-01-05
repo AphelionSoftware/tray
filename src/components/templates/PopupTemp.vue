@@ -2,24 +2,19 @@
   <v-content>
     <v-layout>
       <v-flex>
-        <v-card
-        flat
-        min-height="300px"
-        width="300px">
-          TEST
-        </v-card>
+        <popup-card/>
       </v-flex>
     </v-layout>
   </v-content>
 </template>
 
 <script>
-// import sample from './../sample/sample.json'
+import PopupCard from "./../organisms/PopupCard";
 
 export default {
   name: location.href.split(/\/(?!.*\/)/)[1].split(/\.(?!.*\.)/)[0],
   components: {
-
+    PopupCard
   },
   data () {
     return {
