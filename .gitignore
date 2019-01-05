@@ -3,4 +3,4 @@ node_modules/
 # Personal Settings
 *.vscode/
 # npm buid
-*dist/
+/dist/*
