@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "0.1.0",
+    "default_locale": "ja",
+    "name": "__MSG_ext_name__",
+    "description": "__MSG_ext_desc__",
+    "browser_action": {
+        "default_title": "__MSG_ext_title__",
+        "default_popup": "./index.html"
+    },
+    "options_page": "./index.html"
+}
