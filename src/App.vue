@@ -1,8 +1,6 @@
 <template>
   <v-app app>
-    <v-content>
-      <HelloWorld/>
-    </v-content>
+    <HelloWorld/>
   </v-app>
 </template>
 
