@@ -1,6 +1,24 @@
 <template>
-  <div id="Empty">
-  </div>
+  <v-card
+  flat
+  min-height="300px"
+  width="300px">
+    <v-contant>
+      <v-container fluid>
+        <v-layout>
+          <v-flex>
+            <p class="title">TEST</p>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-contant>
+    <v-card-actions>
+      <v-btn block color="error" dark>
+        <v-icon left>fab fa-get-pocket</v-icon>
+        認証
+      </v-btn>
+    </v-card-actions>
+  </v-card>
 </template>
 
 <script>
