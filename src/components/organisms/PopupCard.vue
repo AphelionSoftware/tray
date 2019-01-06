@@ -7,11 +7,17 @@
       <v-container fluid>
         <v-layout>
           <v-flex>
-            popup
+            <p class="title">TEST</p>
           </v-flex>
         </v-layout>
       </v-container>
     </v-contant>
+    <v-card-actions>
+      <v-btn block color="primary" dark>
+        <v-icon>fab fa-get-pocket</v-icon>
+        認証
+      </v-btn>
+    </v-card-actions>
   </v-card>
 </template>
 
