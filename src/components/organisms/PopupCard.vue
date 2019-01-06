@@ -13,8 +13,8 @@
       </v-container>
     </v-contant>
     <v-card-actions>
-      <v-btn block color="primary" dark>
-        <v-icon>fab fa-get-pocket</v-icon>
+      <v-btn block color="error" dark>
+        <v-icon left>fab fa-get-pocket</v-icon>
         認証
       </v-btn>
     </v-card-actions>
