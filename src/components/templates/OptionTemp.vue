@@ -1,24 +1,20 @@
 <template>
-  <popup-card-temp>
-    <template slot="content">
-      <p class="title">Popup</p>
-    </template>
-    <template slot="actions">
-      <v-btn block color="error" dark to="/option">
-        <v-icon left>fab fa-get-pocket</v-icon>
-        認証
-      </v-btn>
-    </template>
-  </popup-card-temp>
+  <v-content>
+    <v-layout>
+      <v-flex>
+        <option-card/>
+      </v-flex>
+    </v-layout>
+  </v-content>
 </template>
 
 <script>
-import PopupCardTemp from './../templates/PopupCardTemp'
+import OptionCard from "./../organisms/OptionCard";
 
 export default {
   name: location.href.split(/\/(?!.*\/)/)[1].split(/\.(?!.*\.)/)[0],
   components: {
-    PopupCardTemp
+    OptionCard
   },
   data () {
     return {

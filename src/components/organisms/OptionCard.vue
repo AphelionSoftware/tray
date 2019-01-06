@@ -1,7 +1,7 @@
 <template>
   <popup-card-temp>
     <template slot="content">
-      <p class="title">Popup</p>
+      <p class="title">Option</p>
     </template>
     <template slot="actions">
       <v-btn block color="error" dark to="/option">
